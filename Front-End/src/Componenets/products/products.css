@@ -1,0 +1,120 @@
+/*.no-border {
+    border: none !important;
+}
+.Postion{
+    position: relative;
+}
+.showbutton{
+    position: absolute;
+    bottom: 0;
+}
+
+.favourit{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    border: none;
+    border-radius: 50%;
+}
+.iconwishfavourit{
+    color: #DB4444;
+    border-radius: 50%;
+}
+.iconwish{
+    color: black;
+    border-radius: 50%;
+   
+   
+}
+.icondetails{
+color: black;
+background-color: white;
+border-radius: 50%;
+position: absolute;
+top: 40px;
+right:10px;
+padding: 3px;
+
+}*/
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.product:hover {
+    box-shadow: var(--shadow);
+    border: solid 1px var(--main-color);
+}
+
+.product .btn {
+    transition: transform .5s, opacity .5s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.product:hover .btn {
+    opacity: 1;
+    transform: translateY(0%);
+
+}
+
+.font-sm {
+    font-size: 14px;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-main {
+    background-color: var(--main-color) !important;
+}
+
+.bg-main-light {
+    background-color: var(--light-color) !important;
+}
+
+.favourit{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    border: none;
+    border-radius: 50%;
+}
+
+.iconwishfavourit{
+    color: #DB4444;
+    border-radius: 50%;
+}
+
+
+.iconwish{
+    color: black;
+    border-radius: 50%;
+}
+
+.icondetails{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    right:10px;
+    padding: 3px
+    }
+
+    .Postion{
+        position: relative;
+    }
+    .showbutton{
+        position: absolute;
+        bottom: 0;
+        width: 95%;
+    }

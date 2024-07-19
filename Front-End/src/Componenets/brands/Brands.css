@@ -1,0 +1,35 @@
+
+  .allslick {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.allslick .title {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 90px;
+  position: relative;
+}
+@media (max-width: 700px) {
+  .allslick .title {
+    width: 100%;
+  }
+}
+.title p {
+
+  font-size: 16px;
+}
+.title h3 {
+  font-size: 30px;
+
+}
+
+
+.allslick img {
+  width: 150px !important;
+height: 150px;
+gap: 50px;
+  transition: 0.3s all;
+}

@@ -1,0 +1,43 @@
+.parentdiv{
+    display: flex;
+    justify-content: space-between;
+   padding:60px 40px 80px 40px;
+   gap: 50px;
+}
+
+.iconwishdetails{
+    color: black;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+
+.childone{
+    width: 50%;
+}
+.childttwo{
+    width:50%;
+}
+
+@media (max-width: 768px) {
+    .parentdiv {
+      display: block;
+       padding:80px 20px 20px 20px;
+    }
+    .childone {
+        width: 100% !important;
+      }
+    
+      .childttwo{
+        width: 100% !important;
+      }
+    
+    
+      .btn {
+        margin-top: 10px;
+      }
+    }
+.favProduct{
+  border: 1px gray solid !important ;
+  color: white;
+}

@@ -1,0 +1,35 @@
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px; 
+  }
+  
+  .largeRoundedImg {
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: #d9d9d9b5;
+    border: 2px solid rgb(188, 114, 114);
+    transition: border-radius 0.5s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .largeRoundedImg:hover {
+    border-radius: 20%;
+    transform: scale(1.1); 
+  }
+  
+
+
+  

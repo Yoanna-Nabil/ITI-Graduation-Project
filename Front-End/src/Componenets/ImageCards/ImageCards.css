@@ -1,0 +1,56 @@
+/* Add any custom styles for the slider container here */
+.slider-container {
+    width: 100%;
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Add any global styles or Swiper custom styles here */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper-container {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-card {
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .product-info {
+    padding: 10px 0;
+  }
+  
+  .product-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0 0 0;
+  }
+  
+  /* Optionally, customize the pagination bullets */
+  .swiper-pagination-bullet {
+    background-color: #000; /* Change color as needed */
+  }
+  
+  

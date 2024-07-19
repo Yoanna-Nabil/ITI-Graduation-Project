@@ -1,0 +1,132 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about_text {
+    width: 50%;
+  }
+  
+  .about_text img {
+    width: 60%;
+    text-align: center;
+  }
+  
+  .about_text p {
+    width: 75%;
+  }
+  
+  .para {
+    width: 100%;
+  }
+  
+  .ourTeams {
+    width: 40%;
+  }
+  
+.imges{
+  width: 100px !important;
+  height: 35px;
+}
+  
+
+  @media (max-width: 992px) {
+    .section {
+      flex-direction: column-reverse;
+    }
+  
+    .about_text {
+      width: 100% !important;
+    }
+  
+    .about_text p {
+      width: 100% !important;
+    }
+  
+    .para {
+      width: 100% !important;
+    }
+  
+    .about_text h5 {
+      width: 100% !important;
+    }
+  
+    .ourTeams {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .ourTeams div {
+      margin-bottom: 10px;
+    }
+  
+    .section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .about_text {
+        width: 50%;
+      }
+      
+      .about_text img {
+        width: 60%;
+        text-align: center;
+      }
+      
+      .about_text p {
+        width: 75%;
+      }
+      
+      .para {
+        width: 100%;
+      }
+      
+      .ourTeams {
+        width: 40%;
+      }
+      
+      .imges {
+        width: 40px;
+      }
+      
+      /* Media Query for responsive design */
+      @media (max-width: 992px) {
+        .section {
+          flex-direction: column-reverse;
+        }
+      
+        .about_text {
+          width: 100% !important;
+        }
+      
+        .about_text p {
+          width: 100% !important;
+        }
+      
+        .para {
+          width: 100% !important;
+        }
+      
+        .about_text h5 {
+          width: 100% !important;
+        }
+      
+        .ourTeams {
+          width: 100%;
+          flex-wrap: wrap;
+        }
+      
+        .ourTeams div {
+          margin-bottom: 10px;
+        }
+      
+        .imges {
+          width: 40px !important;
+        }
+      }
+      
+  }
+  
