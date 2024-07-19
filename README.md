@@ -17,6 +17,6 @@ This project is a web-based ecommerce application focused on selling electrical 
 
 The project uses the following technologies:
 
-- Frontend: React.js, HTML, CSS
+- Frontend: React.js, HTML, CSS, JavaScript, Tailwind CSS
 - Backend: Node.js, Express.js
 - Database: MongoDB
